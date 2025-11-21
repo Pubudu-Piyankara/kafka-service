@@ -1,0 +1,22 @@
+server:
+  port: 8281
+
+topic:
+  name: topic-orders
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+
+    consumer:
+      group-id: order-service-consumer-group
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: io.confluent.kafka.serializers.KafkaAvroDeserializer
+      auto-offset-reset: earliest
+      properties:
+        schema.registry.url: http://localhost:8081
+        specific.avro.reader: true
+
+    listener:
+      missing-topics-fatal: false
+      ack-mode: record
