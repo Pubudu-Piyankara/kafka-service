@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8b607d1-24d2-4228-a209-202354ea19a9" name="Changes" comment="" />
+    <list default="true" id="e8b607d1-24d2-4228-a209-202354ea19a9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-libraries/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-common/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-libraries/target/classes/com/kafka/common_libraries/CommonLibrariesApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-common/target/classes/com/kafka/common_libraries/CommonLibrariesApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-libraries/target/classes/com/kafka/common_libraries/model/Order$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-common/target/classes/com/kafka/common_libraries/model/Order$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-libraries/target/classes/com/kafka/common_libraries/model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-common/target/classes/com/kafka/common_libraries/model/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-libraries/target/classes/schemas/order.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-common/target/classes/schemas/order.avsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-libraries/target/test-classes/com/kafka/common_libraries/CommonLibrariesApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-common/target/test-classes/com/kafka/common_libraries/CommonLibrariesApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-schema-registry/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-schemas/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-schema-registry/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-schemas/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-schema-registry/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-schemas/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-schema-registry/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-schemas/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-schema-registry/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-schemas/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-schema-registry/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-schemas/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-schema-registry/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-schemas/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-schema-registry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-schemas/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-schema-registry/src/main/java/com/kafka/kafka_schema_registry/KafkaSchemaRegistryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-schemas/src/main/java/com/kafka/kafka_schema_registry/KafkaSchemaRegistryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-schema-registry/src/main/java/com/kafka/kafka_schema_registry/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-schemas/src/main/java/com/kafka/kafka_schema_registry/config/KafkaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-schema-registry/src/main/java/com/kafka/kafka_schema_registry/consumer/KafkaAvroConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-schemas/src/main/java/com/kafka/kafka_schema_registry/consumer/KafkaAvroConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-schema-registry/src/main/java/com/kafka/kafka_schema_registry/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-schemas/src/main/java/com/kafka/kafka_schema_registry/controller/EventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-schema-registry/src/main/java/com/kafka/kafka_schema_registry/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-schemas/src/main/java/com/kafka/kafka_schema_registry/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-schema-registry/src/main/java/com/kafka/kafka_schema_registry/producer/KafkaAvroProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-schemas/src/main/java/com/kafka/kafka_schema_registry/producer/KafkaAvroProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-schema-registry/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-schemas/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-schema-registry/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-schemas/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-schema-registry/src/main/resources/avro/order.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-schemas/src/main/resources/avro/order.avsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-schema-registry/src/test/java/com/kafka/kafka_schema_registry/KafkaSchemaRegistryApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-schemas/src/test/java/com/kafka/kafka_schema_registry/KafkaSchemaRegistryApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +39,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="35nPwbF5qTdYzdRxYaEQwnKxRTz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,14 +49,37 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ConsumerServiceApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/pubudupiyankara/Studies/Aca/Big Data/kafka-avro-order-service",
+    "last_opened_file_path": "/Users/pubudupiyankara/Studies/Aca/Big Data/kafka-service",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="ConsumerServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.kafka.consumer_service.ConsumerServiceApplication" />
+      <module name="kafka-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kafka.consumer_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConsumerServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
